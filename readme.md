@@ -6,13 +6,13 @@ This is mostly just for some front end practice for myself. I, nor this project 
 
 ## More Colors Coming
 
-- [x] Key Colors A/W 26/27
-- [x] Key Colors S/S 26
-- [x] Key Colors A/W 25/26
+- [x] ~~Key Colors A/W 26/27~~
+- [x] ~~Key Colors S/S 26~~
+- [x] ~~Key Colors A/W 25/26~~
 
 ## Features Coming
 
-- [x] Choose between different sets of colors
+- [x] ~~Choose between different sets of colors~~
 - [ ] See all the colors at once
 - [ ] Choose to see either RGB, Hex, or HCL
 
