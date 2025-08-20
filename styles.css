@@ -42,10 +42,6 @@ body {
   width: 300px;
 }
 
-.swatch:not(:last-of-type) {
-  /* margin-right: 20px; */
-}
-
 .header {
   display: flex;
   justify-content: space-between;
