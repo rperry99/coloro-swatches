@@ -6,9 +6,9 @@ This is mostly just for some front end practice for myself.
 
 ## More Colors Coming
 
-- [ ] Key Colors A/W 26/27
-- [ ] Key Colors S/S 26
-- [ ] Key Colors A/W 25/26
+- [x] Key Colors A/W 26/27
+- [x] Key Colors S/S 26
+- [x] Key Colors A/W 25/26
 
 ## Features Coming
 
