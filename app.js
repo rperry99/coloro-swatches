@@ -131,7 +131,7 @@ const colors = {
   },
 };
 
-Object.values(colors["S/S 27"]).forEach((color) => {
+Object.values(colors["A/W 26/27"]).forEach((color) => {
   console.log(color.name);
   const newSwatch = generateSwatches(
     color.name,
