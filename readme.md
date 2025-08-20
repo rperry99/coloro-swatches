@@ -12,7 +12,7 @@ This is mostly just for some front end practice for myself. I, nor this project 
 
 ## Features Coming
 
-- [ ] Choose between different sets of colors
+- [x] Choose between different sets of colors
 - [ ] See all the colors at once
 - [ ] Choose to see either RGB, Hex, or HCL
 

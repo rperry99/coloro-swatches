@@ -131,17 +131,48 @@ const colors = {
   },
 };
 
-Object.values(colors["A/W 26/27"]).forEach((color) => {
-  console.log(color.name);
-  const newSwatch = generateSwatches(
-    color.name,
-    color.code,
-    color.hex,
-    color.tag
-  );
-  swatchContainer.appendChild(newSwatch);
+// Set a color pallet from the beginning.
+palletSwap("S/S 27");
+
+// Add click events to each button
+const buttons = document.querySelectorAll(".buttons button");
+buttons.forEach((button) => {
+  button.addEventListener("click", ()  => {
+    // Get the inner text
+    const palletSelected = button.innerText;
+    console.log(palletSelected);
+
+    // Clear the old swatches
+    swatchContainer.innerHTML = "";
+
+    // Remove the "Active" class from all buttons.
+    buttons.forEach((button) => {
+      button.classList.remove("active");
+    });
+
+    // Add the "active" class to this button
+    button.classList.add("active");
+
+    // Generate the pallets of selected button
+    palletSwap(palletSelected);
+  });
 });
 
+// Swaps the color pallet to a specific pallet
+function palletSwap(pallet) {
+  Object.values(colors[pallet]).forEach((color) => {
+    console.log(color.name);
+    const newSwatch = generateSwatches(
+      color.name,
+      color.code,
+      color.hex,
+      color.tag
+    );
+    swatchContainer.appendChild(newSwatch);
+  });
+}
+
+// Create the swatch cards.
 function generateSwatches(name, code, hex, tag) {
   // Create the Swatch element
   const swatch = document.createElement("div");
