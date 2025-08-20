@@ -2,7 +2,7 @@
 
 I recently found out about the [Coloro X WGSN Color of The Year](https://coloro.com/key-colors#KeyColors-A/W-26/27). I thought I would make a little swatch thing inspired by their swatch page.
 
-This is mostly just for some front end practice for myself.
+This is mostly just for some front end practice for myself. I, nor this project is affiliated with either Coloro or WGSN. This is purely a for-fun project for myself.
 
 ## More Colors Coming
 
