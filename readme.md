@@ -16,6 +16,11 @@ This is mostly just for some front end practice for myself. I, nor this project 
 - [ ] See all the colors at once
 - [ ] Choose to see either RGB, Hex, or HCL
 
+## Known Problems
+
+- [ ] The header bar / navigation has overlapping issues with the swatches. Swatches sometimes appear above the bar.
+- [ ] Website is not mobile friendly and layout breaks at anything below laptop screen size.
+
 ## Relevant Links
 
 [All Colors on Coloro's website](https://coloro.com/key-colors#KeyColors-A/W-26/27)
